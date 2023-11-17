@@ -1,3 +1,17 @@
-#carta{
-    width: 250px;
+
+
+.col{
+    position: relative;
+}
+.col .seg{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.col:hover .seg{
+    visibility: visible;
+    opacity: 1;
 }
